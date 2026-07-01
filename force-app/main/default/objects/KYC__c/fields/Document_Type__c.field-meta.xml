@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <label>Document Type</label>
+    <fullName>Document_Type__c</fullName>
+    <type>Picklist</type>
+
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>PAN</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Aadhaar</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Passport</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+
+</CustomField>
